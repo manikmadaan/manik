@@ -27,3 +27,4 @@ number = int(input("enter your number"))
 #print("factorial using ittrative method", factorial_irretative(number))
 #print("factorial using reccursive method" , factorial_recurrsive(number))
 print(fibonacci(number))
+#

@@ -1,0 +1,29 @@
+def factorial_irretative(n):
+    fac = 1
+    for i in range(n):
+        fac = fac * (i+1)
+    return fac
+#number = int(input("enter your number"))
+#print("factorial using ittrative method",factorial_irretative(number))
+
+
+def factorial_recurrsive(n):
+    if n==1:
+        return 1
+    else:
+        return n * factorial_recurrsive(n-1)
+
+
+def fibonacci(n):
+    if n == 1:
+        return 0
+    elif n==2:
+        return 1
+    else:
+        return fibonacci(n-1)+ fibonacci(n-2)
+
+
+number = int(input("enter your number"))
+#print("factorial using ittrative method", factorial_irretative(number))
+#print("factorial using reccursive method" , factorial_recurrsive(number))
+print(fibonacci(number))
